@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch src/main.ts"
+    "dev": "deno run --watch -R -E --unstable-detect-cjs src/main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
