@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Deno: Module",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["run"],
+      "attachSimplePort": 9229,
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/src/main.ts"
+    }
+  ]
+}
